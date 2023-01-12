@@ -1,0 +1,15 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home3/moor14/qrcode.pngtimeaccess.com"
+PassengerBaseURI "/"
+PassengerNodejs "/home3/moor14/nodevenv/qrcode.pngtimeaccess.com/14/bin/node"
+PassengerAppType node
+PassengerStartupFile index.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv DB_HOST localhost
+SetEnv DB_NAME moor14_qrcodepngtimeaccess
+SetEnv DB_USER moor14_qrcodepngtimeaccess
+SetEnv DB_PASSWORD vGoESZokGYGg
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
