@@ -1,2 +1,2 @@
 # pngtimeaccess
-The attendance using qrcode
+The attendance using qrcode.
